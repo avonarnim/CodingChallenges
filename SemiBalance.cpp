@@ -16,9 +16,7 @@ public:
             return NULL;
         } else {
             return sortedArrayToBST(nums, 0, nums.size()-1);
-        }
-        
-        
+        }        
     }
     
     TreeNode* sortedArrayToBST(vector<int>& nums, int left, int right) {
